@@ -1,0 +1,55 @@
+/* Add styles here */
+body {
+    background-image: url(images/sunset.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar {
+    padding: 0px 5px;
+    color: white;
+    background-color:black;
+    opacity: 60%;
+}
+
+#navbarMenu {
+    text-align: right;
+    padding: 5px;
+}
+
+ul.navbarMList {
+    list-style: none;
+}
+
+ul.navbarMList > li {
+    display: inline-block;
+    padding: 0px 7px 0px 7px;
+}
+
+ul.navbarMList > li > a {
+    color: white;
+   text-decoration: none;    
+}
+
+ul.navbarMList > li > a:hover {
+    color:gold;
+}
+
+.navbarBrand {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 2px 2px violet;
+    padding: 200px 10px 10px 10px;
+}
+
+.text1 {
+    color: white;
+    font-size: 24px;
+    position:relative;
+    top : 135px;
+    left: 15%;
+}
